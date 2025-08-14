@@ -1,0 +1,85 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdf6f0;
+  color: #2e2e2e;
+  line-height: 1.6;
+}
+
+/* Header & Footer */
+header, footer {
+  background: #8e44ad;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+/* Main Layout */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.card {
+  background: #ffffff;
+  border-left: 6px solid #8e44ad;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+/* Buttons */
+button {
+  background-color: #8e44ad;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #732d91;
+}
+
+/* Quiz Options */
+#options button {
+  width: 100%;
+  text-align: left;
+  margin: 0.5rem 0;
+  background-color: #ecdbf6;
+  color: #2e2e2e;
+}
+
+#options button:hover {
+  background-color: #d5b6ef;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+
+  h1, h2 {
+    font-size: 1.4rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}

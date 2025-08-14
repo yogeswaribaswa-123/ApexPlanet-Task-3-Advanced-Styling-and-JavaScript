@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Quiz + Joke API</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Interactive Quiz & Random Joke</h1>
+  </header>
+  <main>
+    <!-- Quiz Section -->
+    <section class="card quiz-container">
+      <h2>Quiz</h2>
+      <p id="question">Loading...</p>
+      <div id="options"></div>
+      <button id="nextBtn">Next</button>
+      <p id="scoreDisplay"></p>
+    </section>
+
+    <!-- Joke Section -->
+    <section class="card joke-container">
+      <h2>Random Joke</h2>
+      <button id="jokeBtn">Tell me a Joke</button>
+      <p id="jokeDisplay"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Interactive Web Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
